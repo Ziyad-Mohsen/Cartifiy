@@ -1,0 +1,55 @@
+/* Global CSS file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar Style */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fd6600;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Animations */
+.loading {
+  animation: rotate linear 1s infinite;
+}
+
+.text-scroll-animation:hover h2 {
+  animation: scroll-left 5s linear;
+  animation-delay: 1s;
+}
+
+/* Keyframes */
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}

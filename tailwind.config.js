@@ -15,9 +15,6 @@ export default {
         primary: "#fd6600",
         secondary: "#222222",
       },
-      backgroundImage: {
-        heroBg: "url('./src/imgs/heroBg.jpg')",
-      },
     },
   },
   plugins: [],

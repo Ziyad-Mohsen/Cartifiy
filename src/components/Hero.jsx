@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-heroBg bg-cover bg-center bg-no-repeat min-h-screen flex items-center">
+    <div className="relative hero-bg bg-cover bg-center bg-no-repeat min-h-screen flex items-center">
       {/* overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-75"></div>
       {/* Text */}

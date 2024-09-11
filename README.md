@@ -16,7 +16,7 @@
 
 ## Demo
 
-Check out the live demo of **Cartify** [here](https://ziyad-mohsen.github.io/Cartifiy).
+Check out the live demo of **Cartify** [here](https://66e0d7b91b3fac4198b91d8b--carifiy.netlify.app/).
 
 ## Features
 

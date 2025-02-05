@@ -39,7 +39,7 @@ To get started with this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/cartify.git
+   git clone https://github.com/Ziyad-Mohsen/cartify.git
    cd cartify
    ```
 2. **Install dependencies:**
